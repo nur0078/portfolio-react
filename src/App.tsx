@@ -121,18 +121,18 @@ function App() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:h-90 lg:flex-row lg:flex-wrap">
-            <div className="  flex-1 h-90">
+            <div className="  basis-1/3 flex-1 h-90">
               <img
                 src={Project1}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover shadow-md"
                 width={'100%'}
                 height={'100%'}
               />
             </div>
-            <div className="  flex-1 ">
+            <div className="  basis-1/3 flex-1 ">
               <img
                 src={Project2}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover shadow-md"
                 width={'100%'}
                 height={'100%'}
               />
