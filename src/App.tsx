@@ -15,7 +15,7 @@ function App() {
           {/* navbar */}
           <nav className="py-10 mb-12 flex justify-between">
             <a href="/">
-              <h1 className="text-3xl font-caveat">
+              <h1 className="text-5xl font-caveat">
                 <span className="text-rdrPurp">a</span>nurodh
               </h1>
             </a>
@@ -25,7 +25,7 @@ function App() {
               </li>
               <li>
                 <a
-                  className=" bg-gradient-to-tr from-rdrPurp  to-nur  text-white px-4 py-2 rounded-md ml-8"
+                  className=" bg-gradient-to-tr from-rdrPurp  to-nur  text-white px-5 py-2 rounded-md ml-8"
                   href="#"
                 >
                   {/* hover:from-dskBlk  hover:to-dskRed /// dskBlk= gray-700 */}
@@ -75,42 +75,45 @@ function App() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <img
-                src={Blog}
-                alt="Blog site for an author"
-                width={100}
-                height={100}
-                className="mx-auto"
-              />
-              <h3 className="text-lg font-medium pt-8 pb-2"> Blog for an Author</h3>
-              <p className="py-2 font-mulish">
-                A blog site for an author where they can publish their literature.
-              </p>
-              <h4 className="py-4 text-rdrPurp  ">Design Tools I Use</h4>
-              <p className="text-nur py-1">ReactJS</p>
-              <p className="text-nur py-1">TypeScript</p>
-              <p className="text-nur py-1">Tailwind CSS</p>
-              <p className="text-nur py-1">Figma</p>
-              <p className="text-nur py-1">Git/Github</p>
-            </div>
-
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <img
-                src={ID}
-                alt="Digital Business Card"
-                width={100}
-                height={100}
-                className="mx-auto"
-              />
-              <h3 className="text-lg font-medium pt-8 pb-2"> Digital Business Card</h3>
-              <p className="py-2 font-mulish">A digital business card.</p>
-              <h4 className="py-4 text-rdrPurp ">Design Tools I Use</h4>
-              <p className="text-nur py-1">ReactJS</p>
-              <p className="text-nur py-1">Javascript</p>
-              <p className="text-nur py-1"> CSS</p>
-              <p className="text-nur py-1">Figma</p>
-            </div>
+            <a href="https://pagli-writes.vercel.app/" target="_blank">
+              <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+                <img
+                  src={Blog}
+                  alt="Blog site for an author"
+                  width={100}
+                  height={100}
+                  className="mx-auto"
+                />
+                <h3 className="text-lg font-medium pt-8 pb-2"> Blog for an Author</h3>
+                <p className="py-2 font-mulish">
+                  A blog site for an author where they can publish their literature.
+                </p>
+                <h4 className="py-4 text-rdrPurp  ">Design Tools I Use</h4>
+                <p className="text-nur py-1">ReactJS</p>
+                <p className="text-nur py-1">TypeScript</p>
+                <p className="text-nur py-1">Tailwind CSS</p>
+                <p className="text-nur py-1">Figma</p>
+                <p className="text-nur py-1">Git/Github</p>
+              </div>
+            </a>
+            <a href="https://www.anurodhpandey.com.np/" target="_blank">
+              <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+                <img
+                  src={ID}
+                  alt="Digital Business Card"
+                  width={100}
+                  height={100}
+                  className="mx-auto"
+                />
+                <h3 className="text-lg font-medium pt-8 pb-2"> Digital Business Card</h3>
+                <p className="py-2 font-mulish">A digital business card.</p>
+                <h4 className="py-4 text-rdrPurp ">Design Tools I Use</h4>
+                <p className="text-nur py-1">ReactJS</p>
+                <p className="text-nur py-1">Javascript</p>
+                <p className="text-nur py-1"> CSS</p>
+                <p className="text-nur py-1">Figma</p>
+              </div>
+            </a>
           </div>
         </section>
         <section>
