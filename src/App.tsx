@@ -2,6 +2,10 @@ import './App.css';
 import { GiRaven } from 'react-icons/gi';
 import { BsFillMoonStarsFill, BsLinkedin, BsGithub } from 'react-icons/bs';
 import DP from '../src/assets/og.png';
+import Blog from '../src/assets/blog.png';
+import Project1 from '../src/assets/project1.png';
+import Project2 from '../src/assets/proiject2.png';
+import ID from '../src/assets/id.png';
 
 function App() {
   return (
@@ -48,6 +52,7 @@ function App() {
           <img src={DP} alt="Anurodh Pandey" className="rounded-full w-80 h-80 mx-auto" />
         </div>
       </section>
+      <section>add Tech Stack | images of tools</section>
 
       <section>
         <div>
@@ -59,8 +64,54 @@ function App() {
           </p>
         </div>
         <div>
+          <div className=" shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <img
+              src={Blog}
+              alt="Blog site for an author"
+              width={100}
+              height={100}
+              className="mx-auto"
+            />
+            <h3 className="text-lg font-medium pt-8 pb-2"> Blog for an Author</h3>
+            <p className="py-2">
+              A blog site for an author where they can publish their literature.
+            </p>
+            <h4 className="py-4 text-rdrPurp  ">Design Tools I Use</h4>
+            <p className="text-nur py-1">ReactJS</p>
+            <p className="text-nur py-1">TypeScript</p>
+            <p className="text-nur py-1">Tailwind CSS</p>
+            <p className="text-nur py-1">Figma</p>
+            <p className="text-nur py-1">Git/Github</p>
+          </div>
+
+          <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <img
+              src={ID}
+              alt="Digital Business Card"
+              width={100}
+              height={100}
+              className="mx-auto"
+            />
+            <h3 className="text-lg font-medium pt-8 pb-2"> Digital Business Card</h3>
+            <p className="py-2">A digital business card.</p>
+            <h4 className="py-4 text-rdrPurp ">Design Tools I Use</h4>
+            <p className="text-nur py-1">ReactJS</p>
+            <p className="text-nur py-1">Javascript</p>
+            <p className="text-nur py-1"> CSS</p>
+            <p className="text-nur py-1">Figma</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h3 className="text-3xl py-1"> My Portfolio</h3>
+          <p className="font-mulish text-md py-2 leading-8 text-gray-800 text-justify">
+            My portfolios are below:
+          </p>
+        </div>
+        <div>
           <div>
-            <img src= />
+            <img src={Project1} />
           </div>
         </div>
       </section>
