@@ -9,7 +9,7 @@ import ID from '../src/assets/id.png';
 
 function App() {
   return (
-    <div className="bg-white px-10 font-poppins">
+    <div className="bg-white px-10 font-poppins md:px-20 lg:px-40">
       <section className="min-h-screen">
         {/* navbar */}
         <nav className="py-10 mb-12 flex justify-between">
@@ -113,7 +113,7 @@ function App() {
           <div>
             <img src={Project1} />
           </div>
-          <div>
+          <div className="pt-4">
             <img src={Project2} />
           </div>
         </div>
