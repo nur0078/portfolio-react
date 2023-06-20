@@ -4,7 +4,7 @@ import { BsFillMoonStarsFill, BsLinkedin, BsGithub } from 'react-icons/bs';
 import DP from '../src/assets/og.png';
 import Blog from '../src/assets/blog.png';
 import Project1 from '../src/assets/project1.png';
-import Project2 from '../src/assets/proiject2.png';
+import Project2 from '../src/assets/project2.png';
 import ID from '../src/assets/id.png';
 
 function App() {
@@ -112,6 +112,9 @@ function App() {
         <div>
           <div>
             <img src={Project1} />
+          </div>
+          <div>
+            <img src={Project2} />
           </div>
         </div>
       </section>
