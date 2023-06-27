@@ -36,7 +36,7 @@ export default function Home() {
           {/* intro */}
           <div className="text-center p-10 ">
             <h2 className="text-5xl py-2 text-rdrPurp font-semibold md:text-6xl">Anurodh Pandey</h2>
-            <h3 className=" font-mulish text-2xl py-2 text-nur md:text-3xl"> React Dveloper </h3>
+            <h3 className=" font-mulish text-2xl py-2 text-nur md:text-3xl"> React Developer </h3>
             <p className="font-mulish text-md py-5 leading-8 text-gray-800 text-center md:text-lg max-w-xl mx-auto">
               Hi, I'm a Front-end Developer from Sydney, Australia.
             </p>
