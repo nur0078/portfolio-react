@@ -61,11 +61,14 @@ export default function Home() {
           </div>
         </section>
         <section className="pt-4 font-poppins text-xl">
-          <div className="flex gap-6 py-4 justify-center h-16">
-            <h1 className="items-center">Tech Stack |</h1>
-            {Stacks.map((stack, index) => (
-              <StackComponent key={index} src={stack.src} alt={stack.alt} />
-            ))}
+          <div className="  text-center ">
+            <h1>Tech Stack |</h1>
+            <br />
+            <div className=" flex gap-6 mx-auto w-12 h-12 justify-center ">
+              {Stacks.map((stack, index) => (
+                <StackComponent key={index} src={stack.src} alt={stack.alt} />
+              ))}
+            </div>
           </div>
         </section>
 
@@ -76,7 +79,7 @@ export default function Home() {
               Hi, These are the projects I have done so far.
             </p>
           </div>
-          <div className="flex gap-14 flex-wrap py-4 justify-center ">
+          <div className=" flex gap-10 flex-wrap py-4 justify-center ">
             {Projects.map((project, index) => {
               return <Card project={project} key={index} />;
             })}
