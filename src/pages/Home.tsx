@@ -62,7 +62,7 @@ export default function Home() {
         </section>
         <section className="pt-4 font-poppins text-xl">
           <div className="  text-center ">
-            <h1>Tech Stack |</h1>
+            <h1>Tech Stack</h1>
             <br />
             <div className=" flex gap-6 mx-auto w-12 h-12 justify-center ">
               {Stacks.map((stack, index) => (
