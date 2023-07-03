@@ -79,7 +79,7 @@ export default function Home() {
               Hi, These are the projects I have done so far.
             </p>
           </div>
-          <div className=" flex gap-10 flex-wrap py-4 justify-center ">
+          <div className=" flex gap-10 flex-wrap py-4 justify-center  ">
             {Projects.map((project, index) => {
               return <Card project={project} key={index} />;
             })}
@@ -94,6 +94,7 @@ export default function Home() {
 }
 interface Project {
   title: string;
+  url: string;
   description: string;
   tools: string[];
   img: string; // Change this if img is not a string
@@ -111,15 +112,17 @@ const Card = ({ project }: CardProps) => {
       className={`transform ease-in-out duration-500 hover:scale-105 rounded-lg px-5 py-4 leading-normal shadow-md shadow-slate-300 w-80 h-104 dark:text-black text-center font-poppins dark:shadow-md dark:shadow-white dark:bg-white dark:opacity-80`}
     >
       {isCardClicked ? (
-        <div className=" flex flex-col gap-6 shadow-md flex-1">
-          <h1 className=" text-lg ">{project.title}</h1>
+        <div className=" flex flex-col gap-6 shadow-md flex-1 bg-gray-200 h-72 ">
+          <a href={project.url} target="_blank">
+            <h1 className=" text-lg underline ">{project.title}</h1>
+          </a>
           <h2>{project.description}</h2>
-          <div className="flex gap-4 flex-wrap  ">
+          <div className="flex gap-4 flex-wrap justify-center pb-4 ">
             {project.tools.map((tool: string, index: number) => {
               return (
                 <div
                   key={index}
-                  className=" text-center rounded shadow shadow-slate-400 px-5 py-2 bg-slate-600 text-white dark:bg-slate-50 dark:text-black"
+                  className="  rounded shadow  shadow-slate-400 px-5 py-2 bg-slate-600 text-red dark:bg-slate-50 dark:text-black"
                 >
                   {tool}
                 </div>
@@ -128,9 +131,13 @@ const Card = ({ project }: CardProps) => {
           </div>
         </div>
       ) : (
-        <div className="flex flex-col shadow-lg">
-          <h1 className="  p-0 text-center font-poppins text-lg text-black ">{project.title}</h1>
-          <img src={project.img} alt={project.img} className="rounded-lg" />
+        <div className="flex flex-col shadow-lg rounded-lg">
+          <a href={project.url} target="_blank">
+            <h1 className="  p-0 text-center font-poppins text-lg text-black underline ">
+              {project.title}
+            </h1>
+          </a>
+          <img src={project.img} alt={project.img} className="rounded-lg w-90 h-60" />
         </div>
       )}
     </div>
