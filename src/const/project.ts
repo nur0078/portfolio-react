@@ -1,7 +1,7 @@
 import PagliImg from '../assets/pagli.png'
 import Biz from '../assets/bizzz.jpeg';
 import CarGIF from '../assets/carGIF.gif';
-import myTravels from '../assets/myTravels.png';
+import myTravelsGIF from '../assets/travel-journal.gif';
 import Olaf from '../assets/olaf.jpeg';
 
 export const Projects = [
@@ -24,7 +24,7 @@ export const Projects = [
       url: "https://travel-journal-bice.vercel.app/",
       description: ` Travel journal thats simply yours`,
       tools: ["ReactJS", "TypeScript", "Tailwind CSS", "Figma","Git/Github"],
-      img: myTravels,
+      img: myTravelsGIF,
     },
     {
       title: "Digital Business",
