@@ -1,15 +1,23 @@
-import Pagli from '../assets/pagli.png'
+import PagliImg from '../assets/pagli.png'
 import Biz from '../assets/bizzz.jpeg';
+import CarGIF from '../assets/carGIF.gif';
 import myTravels from '../assets/myTravels.png';
 import Olaf from '../assets/olaf.jpeg';
 
 export const Projects = [
     {
+      title: "Car Hub",
+      url: "https://car-showroom-five.vercel.app/",
+      description: "A web application for author.",
+      tools: ["ReactJS", "Tailwind", "TypeScript", "API", "Git/Github"],
+      img: CarGIF,
+    },
+    {
       title: "Pagli Writes",
       url: "https://pagli-writes.vercel.app/",
       description: "A web application for author.",
       tools: ["ReactJS", "Tailwind", "TypeScript", "Figma", "Git/Github"],
-      img: Pagli,
+      img: PagliImg,
     },
     {
       title: "Travel Journal",
