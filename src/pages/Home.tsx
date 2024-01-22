@@ -1,12 +1,13 @@
 import '../App.css';
 
 import { GiRaven } from 'react-icons/gi';
-import { BsFillMoonStarsFill, BsLinkedin, BsGithub } from 'react-icons/bs';
+// import { BsFillMoonStarsFill, BsLinkedin, BsGithub } from 'react-icons/bs';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import DP from '../assets/og.png';
 import { Projects } from '../const/project';
 import { useState } from 'react';
 import { Stacks } from '../const/stacks';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
