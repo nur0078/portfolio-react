@@ -88,7 +88,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="  text-center text-lg p-5 mt-10 bg-gradient-to-bl   text-black ">
-        Copyright &copy; 2023. All rights are reserved
+        Copyright &copy; 2024. All rights are reserved
       </footer>
     </div>
   );
