@@ -21,15 +21,15 @@ export default function Home() {
               </h1>
             </a>
             <ul className="flex items-center">
-              <li>
+              {/* <li>
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
-              </li>
+              </li> */}
               <li>
-                <Link to="/resume">
+                {/* <Link to="/resume">
                   <button className=" bg-gradient-to-tr from-rdrPurp  to-nur  text-white px-5 py-2 rounded-md ml-8">
                     Resume
                   </button>
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </nav>
