@@ -1,4 +1,4 @@
-import { Biz, CarHub, Nike, Olaf, PagliImg, ParkIt, myTravels } from '../assets/thumbnails';
+import { Biz, CarHub, Nike, PagliImg, ParkIt, myTravels } from '../assets/thumbnails';
 
 
 export const Projects = [
@@ -45,14 +45,6 @@ export const Projects = [
       tools: ["ReactJS", "JavaScript", "CSS", "Figma"],
       img: Biz,
     },
-    {
-      title: "Don't Melt Olaf",
-      url: "https://dont-melt-olaf.vercel.app/",
-      description: "Word Guessing Game",
-      tools: ["ReactJS", "TypeScript", "Tailwind CSS", "Figma"],
-      img: Olaf,
-    }
-
 
 ];
 
