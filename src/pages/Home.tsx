@@ -115,7 +115,7 @@ const Card = ({ project }: CardProps) => {
       {isCardClicked ? (
         <div className=" flex flex-col gap-6 shadow-md flex-1 bg-gray-200 h-72 ">
           <a href={project.url} target="_blank">
-            <h1 className=" text-lg underline ">{project.title}</h1>
+            <h1 className=" hover:text-[#A770EF] text-lg underline ">{project.title}</h1>
           </a>
           <h2>{project.description}</h2>
           <div className="flex gap-4 flex-wrap justify-center pb-4 ">
