@@ -1,10 +1,5 @@
-import PagliImg from '../assets/pagli.png'
-import Biz from '../assets/bizzz.jpeg';
-import CarGIF from '../assets/carGIF.gif';
-import ParkIt from "../assets/parkIt.png"
-import myTravelsGIF from '../assets/travel-journal.gif';
-import Olaf from '../assets/olaf.jpeg';
-import Nike from '../assets/nike.jpeg'
+import { Biz, CarHub, Nike, Olaf, PagliImg, ParkIt, myTravels } from '../assets/thumbnails';
+
 
 export const Projects = [
     {
@@ -19,14 +14,14 @@ export const Projects = [
       url: "https://car-showroom-five.vercel.app/",
       description: "A web application for author.",
       tools: ["ReactJS", "Tailwind", "TypeScript", "API", "Git/Github"],
-      img: CarGIF,
+      img: CarHub,
     },
     {
       title: "Travel Journal",
       url: "https://travel-journal-bice.vercel.app/",
       description: ` Travel journal thats simply yours`,
       tools: ["ReactJS", "TypeScript", "Tailwind CSS", "Figma","Git/Github"],
-      img: myTravelsGIF,
+      img: myTravels,
     },
     {
       title: "Park It",
