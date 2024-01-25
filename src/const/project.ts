@@ -4,6 +4,7 @@ import CarGIF from '../assets/carGIF.gif';
 import ParkIt from "../assets/parkIt.png"
 import myTravelsGIF from '../assets/travel-journal.gif';
 import Olaf from '../assets/olaf.jpeg';
+import Nike from '../assets/nike.jpeg'
 
 export const Projects = [
     {
