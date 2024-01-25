@@ -44,7 +44,7 @@ export const Projects = [
       description: ` A digital business card.`,
       tools: ["ReactJS", "JavaScript", "CSS", "Figma"],
       img: Biz,
-    },
+    }
 
 ];
 
