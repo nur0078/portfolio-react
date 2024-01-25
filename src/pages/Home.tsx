@@ -134,7 +134,7 @@ const Card = ({ project }: CardProps) => {
       ) : (
         <div className="flex flex-col shadow-lg rounded-lg">
           <a href={project.url} target="_blank">
-            <h1 className="  p-0 text-center font-poppins text-lg text-black underline ">
+            <h1 className="  hover:text-[#A770EF] p-0 text-center font-poppins text-lg text-black underline ">
               {project.title}
             </h1>
           </a>
