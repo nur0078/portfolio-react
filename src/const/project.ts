@@ -7,6 +7,13 @@ import Olaf from '../assets/olaf.jpeg';
 
 export const Projects = [
     {
+      title: "Nike",
+      url: "https://nike-three-iota.vercel.app/",
+      description: "Nike Landing Page",
+      tools: ["ReactJS", "Tailwind", "JavasScript", "Git/Github"],
+      img: CarGIF,
+    },
+    {
       title: "Car Hub",
       url: "https://car-showroom-five.vercel.app/",
       description: "A web application for author.",
