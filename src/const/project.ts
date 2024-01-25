@@ -12,7 +12,7 @@ export const Projects = [
       url: "https://nike-three-iota.vercel.app/",
       description: "Nike Landing Page",
       tools: ["ReactJS", "Tailwind", "JavasScript", "Git/Github"],
-      img: CarGIF,
+      img: Nike,
     },
     {
       title: "Car Hub",
