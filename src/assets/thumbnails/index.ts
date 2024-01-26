@@ -4,12 +4,13 @@ import Nike from './nike.jpeg';
 import PagliImg from "./pagli.jpeg";
 import ParkIt from "./parkIt.jpeg";
 import myTravels from './myTravels.jpeg'
-
+import ResumePage from './resumePage.jpeg'
 export {
     Biz,
     CarHub,
     Nike,
     PagliImg,
     ParkIt,
-    myTravels
+    myTravels,
+    ResumePage
 };
