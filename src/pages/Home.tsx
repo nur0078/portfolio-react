@@ -26,11 +26,11 @@ export default function Home() {
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
               </li> */}
               <li>
-                {/* <Link to="/resume">
+                <a href="https://resume-black-seven.vercel.app/">
                   <button className=" bg-gradient-to-tr from-rdrPurp  to-nur  text-white px-5 py-2 rounded-md ml-8">
                     Resume
                   </button>
-                </Link> */}
+                </a>
               </li>
             </ul>
           </nav>
