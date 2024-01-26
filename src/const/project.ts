@@ -19,7 +19,7 @@ export const Projects = [
     {
       title: "Resume",
       url: "https://resume-black-seven.vercel.app/",
-      description: "Simple web app that renders minimalist CV with print-friendly layout.",
+      description: "Webapp that renders minimalist CV with print-friendly layout.",
       tools: ["ReactJS", "TypeScript", "Nexy.js 14", "Tailwind", "Shadcn/ui"],
       img: ResumePage,
     },
