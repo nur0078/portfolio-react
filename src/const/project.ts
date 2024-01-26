@@ -1,4 +1,4 @@
-import { Biz, CarHub, Nike, PagliImg, ParkIt, myTravels } from '../assets/thumbnails';
+import { Biz, CarHub, Nike, PagliImg, ParkIt, ResumePage, myTravels } from '../assets/thumbnails';
 
 
 export const Projects = [
@@ -15,6 +15,13 @@ export const Projects = [
       description: "A web application for author.",
       tools: ["ReactJS", "Tailwind", "TypeScript", "API", "Git/Github"],
       img: CarHub,
+    },
+    {
+      title: "Resume",
+      url: "https://resume-black-seven.vercel.app/",
+      description: "Simple web app that renders minimalist CV with print-friendly layout.",
+      tools: ["ReactJS", "TypeScript", "Nexy.js 14", "Tailwind", "Shadcn/ui"],
+      img: ResumePage,
     },
     {
       title: "Travel Journal",
