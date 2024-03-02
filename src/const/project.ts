@@ -1,4 +1,4 @@
-import { Biz, CarHub, Nike, PagliImg, ParkIt, ResumePage, myTravels } from '../assets/thumbnails';
+import { CarHub, Nike, ResumePage, myTravels } from '../assets/thumbnails';
 
 
 export const Projects = [
@@ -30,28 +30,5 @@ export const Projects = [
       tools: ["ReactJS", "TypeScript", "Tailwind CSS", "Figma","Git/Github"],
       img: myTravels,
     },
-    {
-      title: "Park It",
-      url: "https://park-it-five.vercel.app/",
-      description: ` Parking app that helps you find a spot.`,
-      tools: ["ReactJS", "TypeScript", "Tailwind CSS", "Next","Git/Github"],
-      img: ParkIt,
-    },
-    {
-      title: "Pagli Writes",
-      url: "https://pagli-writes.vercel.app/",
-      description: "A web application for author.",
-      tools: ["ReactJS", "Tailwind", "TypeScript", "Figma", "Git/Github"],
-      img: PagliImg,
-    },
-    
-    {
-      title: "Digital Business",
-      url: "https://business-card-virid-omega.vercel.app/",
-      description: ` A digital business card.`,
-      tools: ["ReactJS", "JavaScript", "CSS", "Figma"],
-      img: Biz,
-    }
-
 ];
 
