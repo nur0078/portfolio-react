@@ -5,6 +5,8 @@ import PagliImg from "./pagli.jpeg";
 import ParkIt from "./parkIt.jpeg";
 import myTravels from './myTravels.jpeg'
 import ResumePage from './resumePage.jpeg'
+
+//export all
 export {
     Biz,
     CarHub,
